@@ -6,7 +6,14 @@ def io(i):
         print(c,end="",flush=True)
 
 io("Initializing...\n")
-io("login: ")
-usr = input()
-io("password: ")
-pwd = input()
+while True:
+    io("login: ")
+    usr = input()
+    io("password: ")
+    pwd = input()
+
+    if usr == "root" and pwd == "supervisor":
+        io("Welcome back!\n")
+        break
+    else:
+        io("Invalid user/password!\n")
