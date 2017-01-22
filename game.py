@@ -25,11 +25,11 @@ while True:
             if TerminalInp1 == "Documents":
                     io("Taco.txt")
             if TerminalInp1 == "Downloads":
-                    io("UnicornPr0n")
+                    io("SherlockS1E1P1")
             if TerminalInp1 == "Pictures":
-                    io("NO FILES")
-            if TerminalInp1 == "P0rn":
-                    io("Giggity")            
+                    io("Folder is Emptry")
+            if TerminalInp1 == "Git":
+                    io("Insufficient privileges, please run as root")            
         break
     else:
         io("Invalid user/password!\n")
